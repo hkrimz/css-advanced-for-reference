@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0px;
+}
+
+section{
+    height: 100vh;
+}
+.parent{
+    width: 500px;
+    height: 500px;
+    border: 5px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+.child{
+    font-size: larger;
+    margin: 10px;
+    border: 2px solid black;
+    padding: 10px;
+    color: white;
+}
+.child-one{
+ background-color: aqua;
+ position: relative;   
+}
+.child-two{
+    background-color: red;
+    position: absolute;
+}
+.child-three{
+    background-color: yellow;
+    position: fixed;
+    top: 10%;
+    left: 20%;
+}
+.child-four{
+    background-color: brown;
+}
+header{
+    background-color: red;
+    color: black;
+    margin: 10px;
+    position: sticky;
+    top: 0;
+}
+li{
+    display: inline-block;
+    padding: 10px;
+}
